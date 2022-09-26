@@ -1,7 +1,4 @@
 library esewa_khalti_payment_pkg;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/khalti.dart';
+export 'src/esewa.dart';

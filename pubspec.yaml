@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  esewa_pnp: ^2.0.1
+  khalti_flutter: ^2.1.0
 
 dev_dependencies:
   flutter_test:
