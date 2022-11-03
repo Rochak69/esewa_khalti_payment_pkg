@@ -1,21 +1,17 @@
-TODO: esewa khalti paymetn system
+esewa_khalti_payment_pkg is flutter plugin that let's developer to integrate native eSewa and Khalti payment method into their flutter application with just few lines of code
 
-## Features
+## How to install
 
-TODO: at fgeas adswfads awdf
+```dart
+dependencies:
+  esewa_khalti_payment_pkg: ^0.0.3
+```
 
-## Getting started
-
-TODO: asdasdsa
 
 ## Usage
 
-TODO: asdasdasd 
-
-```dart
-const like = 'sample';
-```
+Use Esewa(..) or Khalti(..) and provide necessary named arguments to create a payment button.
 
 ## Additional information
 
-TODO: qwe qw qw eqw eqw e qwe qw eqw eqw rrehu7ei 67ei 56e u.
+TODO: Support for more functionalities will be added soon.

@@ -2,18 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:khalti_flutter/khalti_flutter.dart';
 
 class Khalti extends StatelessWidget {
-  Khalti({Key? key}) : super(key: key);
+  Khalti({Key? key, required this.config}) : super(key: key);
 
-  final config = PaymentConfig(
-    amount: 1000, // Amount should be in paisa
-    productIdentity: 'dell-g5-g5510-2021',
-    productName: 'Dell G5 G5510 2021',
-    productUrl: 'https://www.khalti.com/#/bazaar',
-    additionalData: {
-      // Not mandatory; can be used for reporting purpose
-      'vendor': 'Khalti Bazaar',
-    }, // Not mandatory; makes the mobile field not editable
-  );
+  PaymentConfig config;
 
   @override
   Widget build(BuildContext context) {
@@ -24,12 +15,12 @@ class Khalti extends StatelessWidget {
         // Not providing this will enable all the payment methods.
       ],
       onSuccess: (successModel) {
-        debugPrint("sucesssssssssss");
-        debugPrint("successModel");
+        debugPrint("222");
+        debugPrint("222");
         // Perform Server Verification
       },
       onFailure: (failureModel) {
-        debugPrint("failllllllllllllll");
+        debugPrint("33");
         debugPrint(failureModel.message);
         // What to do on failure?
       },
